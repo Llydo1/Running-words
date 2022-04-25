@@ -1,7 +1,21 @@
-h1{
+div{
+    position: relative;
+    top:100px
+}
+#Hehe{
     position: absolute;
     left: 50px;
     width: fit-content;
     border: 1px solid black ;
     color: blue;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
