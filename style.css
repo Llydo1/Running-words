@@ -1,0 +1,7 @@
+h1{
+    position: absolute;
+    left: 50px;
+    width: fit-content;
+    border: 1px solid black ;
+    color: blue;
+}
